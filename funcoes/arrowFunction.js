@@ -13,5 +13,6 @@ let ola = function () {
 }
 
 ola = () => 'Olá' // aqui nenhum parâmetro é passado (padrão)
-ola = _ => 'Olá' // "_" é passado como parâmetro, mas ele pode ser ignorado
 
+ola = _ => 'Olá' // "_" é passado como parâmetro, mas ele pode ser ignorado
+console.log(ola())
