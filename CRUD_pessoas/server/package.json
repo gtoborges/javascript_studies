@@ -1,0 +1,29 @@
+{
+  "name": "crudnodeexpresssequelizemysql",
+  "version": "1.0.0",
+  "description": "enesima tentativa de fazer um crud",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js"
+  },
+  "keywords": [
+    "Nodejs",
+    "Express",
+    "Sequelize",
+    "MySQL"
+  ],
+  "author": "augusto",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "cors": "^2.8.5",
+    "express": "^4.16.4",
+    "mysql2": "^1.6.4",
+    "sequelize": "^4.42.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.9",
+    "sequelize-cli": "^5.4.0"
+  }
+}
