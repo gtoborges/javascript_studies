@@ -6,6 +6,13 @@ import router from './router'
 import { Layout, Form } from 'bootstrap-vue/es/components'
 import Axios from 'axios'
 import BootstrapVue from 'bootstrap-vue'
+import { library } from '@fortawesome/fontawesome-svg-core'
+import { faPencilAlt, faTrashAlt, faPlusCircle } from '@fortawesome/free-solid-svg-icons'
+import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome'
+
+library.add(faPencilAlt, faTrashAlt, faPlusCircle)
+Vue.component('font-awesome-icon', FontAwesomeIcon)
+Vue.config.productionTip = false
 
 Vue.use(Form)
 Vue.use(Layout)
